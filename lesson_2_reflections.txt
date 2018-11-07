@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Git sets up the necessary "infrastructure" to start version control on that directory (which is now a repository).
+	You need to use init to set up the environment.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The working directory represents the current situation of the directory as understood by the user OS.
+	The repository represents the current situation of the directory as Git understand it.
+	The staging area is different from both the wd and the repo, because it is only a temporary vessel for changes.
+	We use the staging area to register the current state of part/the whole wd and then commit these versions into the repository.
+	Also, the staging area allows one to undo any change, before submitting it to the repository.
+
