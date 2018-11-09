@@ -2,6 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 	Git sets up the necessary "infrastructure" to start version control on that directory (which is now a repository).
 	You need to use init to set up the environment.
 
+	
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The working directory represents the current situation of the directory as understood by the user OS.
 	The repository represents the current situation of the directory as Git understand it.
@@ -9,9 +10,17 @@ How is the staging area different from the working directory and the repository?
 	We use the staging area to register the current state of part/the whole wd and then commit these versions into the repository.
 	Also, the staging area allows one to undo any change, before submitting it to the repository.
 
+	
 How can you use the staging area to make sure you have one commit per logical change?
 	One can use the staging area to make sure which changes are ready to be committed. It serves as a "draft" before the commit.
 	One can put and remove files from the staging area before committing, etc.
 	It also allows for one to make a lot of changes at once, in several files, even if they are not on the same logical change.
 	With the staging area, one can divide this group of changes in logical groups.
+
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When one is doing major changes on a repository, it may be useful to work on a separate branch. That way, user
+	will be able to experiment at will, without worrying to much about breaking the repository. The original, working
+	branch is preserved. Furthermore, one can work on experimental issues on the branched files, while working on 
+	usual issues on the master branch.
 
