@@ -9,3 +9,9 @@ How is the staging area different from the working directory and the repository?
 	We use the staging area to register the current state of part/the whole wd and then commit these versions into the repository.
 	Also, the staging area allows one to undo any change, before submitting it to the repository.
 
+How can you use the staging area to make sure you have one commit per logical change?
+	One can use the staging area to make sure which changes are ready to be committed. It serves as a "draft" before the commit.
+	One can put and remove files from the staging area before committing, etc.
+	It also allows for one to make a lot of changes at once, in several files, even if they are not on the same logical change.
+	With the staging area, one can divide this group of changes in logical groups.
+
