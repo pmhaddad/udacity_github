@@ -30,3 +30,9 @@ How do the diagrams help you visualize the branch structure?
 	They also make it clear which commits are reachable for a given HEAD. It is also easy to see if there were
 	changes in different branches at the same time (maybe a merge is needed?)
 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The result is a merged branch that represents a repository containing all changes made separately in the merged branches.
+	In the diagram, a merge is represented by a convergence of branches. This is appropriate because once two branches
+	are merged, all commits from both branches are stored (and are accessible) on the merged branch.
+
